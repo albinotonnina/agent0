@@ -24,6 +24,14 @@ This repository contains instructional examples of three different ways to build
 *   **Best for**: Personal assistants, monitoring systems, and pro-active helpers.
 *   **Concept**: An infinite loop that "sleeps" and "wakes". It speaks first, instead of waiting for input. It filters noise and only interrupts for important events.
 
+### 6. [Commercial SaaS Agent (The Product)](./06-saas-sdr-agent)
+*   **Best for**: Building a startup or monetizable API service.
+*   **Concept**: Adds "Gatekeeper Nodes" (Billing/Auth) before the work begins. Optimized for specific, high-value tasks (like Sales Prospecting) rather than generic chat.
+
+### 7. [SaaS Customer Support (The Observability Demo)](./07-saas-customer-support)
+*   **Best for**: Production Support Bots, RAG systems, and systems needing debugging.
+*   **Concept**: A RAG (Retrieval) agent that focuses on **Observability**. It is designed to work with **LangSmith** so you can trace errors and evaluate retrieval quality.
+
 ## Getting Started
 
 1.  **Get an API Key**: You need an Anthropic API Key.
