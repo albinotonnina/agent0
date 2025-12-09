@@ -1,0 +1,17 @@
+{
+    "name": "03-langchain-js",
+    "version": "1.0.0",
+    "description": "Building an agent using LangChain.js",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "langchain": "^0.1.0",
+        "@langchain/anthropic": "^0.0.1",
+        "@langchain/core": "^0.1.0",
+        "zod": "^3.0.0",
+        "dotenv": "^16.0.0"
+    }
+}
