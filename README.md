@@ -16,6 +16,14 @@ This repository contains instructional examples of three different ways to build
 *   **Best for**: Complex enterprise apps requiring integrations with many different tools/databases.
 *   **Concept**: A heavy-duty framework with powerful abstractions for "Chains", "Memory", and "Agents".
 
+### 4. [LangGraph (The Enterprise Grade Way)](./04-langgraph-complex)
+*   **Best for**: Mission-critical business processes, compliance workflows, and human-in-the-loop systems.
+*   **Concept**: Defines the agent as a **State Graph** (Nodes & Edges) rather than a loop. Enforces strict flow control and auditability.
+
+### 5. [Ambient Agent (The Background Monitor)](./05-langgraph-ambient)
+*   **Best for**: Personal assistants, monitoring systems, and pro-active helpers.
+*   **Concept**: An infinite loop that "sleeps" and "wakes". It speaks first, instead of waiting for input. It filters noise and only interrupts for important events.
+
 ## Getting Started
 
 1.  **Get an API Key**: You need an Anthropic API Key.

@@ -1,0 +1,17 @@
+{
+    "name": "05-langgraph-ambient",
+    "version": "1.0.0",
+    "description": "Ambient Agent using LangGraph",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@langchain/langgraph": "^0.0.10",
+        "@langchain/anthropic": "^0.1.0",
+        "@langchain/core": "^0.1.0",
+        "zod": "^3.0.0",
+        "dotenv": "^16.0.0"
+    }
+}
