@@ -32,6 +32,10 @@ This repository contains instructional examples of three different ways to build
 *   **Best for**: Production Support Bots, RAG systems, and systems needing debugging.
 *   **Concept**: A RAG (Retrieval) agent that focuses on **Observability**. It is designed to work with **LangSmith** so you can trace errors and evaluate retrieval quality.
 
+### 8. [Real World Enterprise Scenarios (Documentation)](./08-enterprise-scenarios)
+*   **Best for**: Understanding the business value and architecture of agents in the real world.
+*   **Concept**: A collection of Markdown files explaining architectures for **Legal**, **SRE**, **HR**, **Supply Chain**, and **Insurance** agents.
+
 ## Getting Started
 
 1.  **Get an API Key**: You need an Anthropic API Key.
