@@ -36,6 +36,10 @@ This repository contains instructional examples of three different ways to build
 *   **Best for**: Understanding the business value and architecture of agents in the real world.
 *   **Concept**: A collection of Markdown files explaining architectures for **Legal**, **SRE**, **HR**, **Supply Chain**, and **Insurance** agents.
 
+### 9. [Cloud Deployment (AWS / Azure / GCP)](./09-cloud-deployment)
+*   **Best for**: DevOps engineers deploying agents to production.
+*   **Concept**: Detailed guides for each major cloud provider covering compute options, model hosting, state persistence, vector stores, and security best practices.
+
 ## Getting Started
 
 1.  **Get an API Key**: You need an Anthropic API Key.
