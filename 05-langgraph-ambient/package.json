@@ -5,7 +5,10 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "start:continuous": "DEMO_MODE=false node index.js",
+        "start:fast": "POLL_INTERVAL_MS=2000 node index.js",
+        "start:production": "DEMO_MODE=false POLL_INTERVAL_MS=30000 node index.js"
     },
     "dependencies": {
         "@langchain/langgraph": "^0.0.10",
